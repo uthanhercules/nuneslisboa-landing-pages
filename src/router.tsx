@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Leilao from './views/leilao';
-import Saude from './views/saude';
+import AvisoPrevioPlanoDeSaude from './views/AvisoPrevioPlanoDeSaude';
 
 const RouterOutlet = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Leilao />} path='/leilao' />
-        <Route element={<Saude />} path='/saude' />
+        <Route
+          element={<AvisoPrevioPlanoDeSaude />}
+          path='/aviso-previo-saude'
+        />
       </Routes>
     </BrowserRouter>
   );

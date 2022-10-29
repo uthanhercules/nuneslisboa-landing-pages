@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.aviso-previo-saude {
+  article {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: rem(16px);
+  }
+
+  h1,
+  h3 {
+    font-family: $heading-font;
+  }
+
+  .hero {
+    max-width: 50vw;
+    justify-content: center;
+    gap: rem(16px);
+
+    img {
+      width: 20%;
+    }
+
+    h1 {
+      margin-top: auto;
+    }
+
+    button {
+      width: fit-content;
+      margin: rem(16px) 0 auto 0;
+    }
+  }
+
+  .what-we-solve {
+    h3 {
+      margin-bottom: rem(16px);
+    }
+  }
+}
