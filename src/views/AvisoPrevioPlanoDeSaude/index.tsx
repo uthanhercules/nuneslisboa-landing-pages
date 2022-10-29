@@ -1,4 +1,5 @@
 import { Heading, Text, Button } from '@chakra-ui/react';
+import WhatsAppButton from '../../components/WhasAppButton';
 
 import LogoH from '../../assets/logo.png';
 import './style.scss';
@@ -6,6 +7,7 @@ import './style.scss';
 const index = () => {
   return (
     <main className='aviso-previo-saude'>
+      <WhatsAppButton phoneNumber='999055588' />
       <article className='hero'>
         <img src={LogoH} alt='Nunes Lisboa Logo' />
         <Heading as='h1' size='xl'>
