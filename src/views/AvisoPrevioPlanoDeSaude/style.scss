@@ -30,53 +30,7 @@
     button {
       width: fit-content;
       margin: rem(16px) 0 auto 0;
-    }
-  }
-
-  .what-we-solve {
-    height: 100vh;
-    gap: rem(32px);
-    padding-top: rem(32px);
-
-    h3 {
-      font-family: $heading-font;
-      width: 60vw;
-      margin-bottom: rem(16px);
-    }
-
-    p {
-      padding-top: rem(10px);
-      text-align: justify;
-    }
-
-    .text-topic {
-      display: flex;
-    }
-
-    .for-who {
-      display: flex;
-      justify-content: space-between;
-      height: 100%;
-      padding: rem(24px) 0;
-      color: #fff;
-
-      h4 {
-        font-family: $heading-font;
-      }
-
-      .left-section,
-      .right-section {
-        display: flex;
-        flex-direction: column;
-        width: 43vw;
-        padding: rem(16px);
-        border-radius: rem(8px);
-        background-color: $nuneslisboa-red;
-      }
-
-      p {
-        margin-bottom: rem(16px);
-      }
+      text-transform: uppercase;
     }
   }
 }
