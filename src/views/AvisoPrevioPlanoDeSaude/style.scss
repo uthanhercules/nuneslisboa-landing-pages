@@ -18,10 +18,19 @@
     padding: rem(16px) 5vw;
     justify-content: center;
     gap: rem(16px);
-    background-image: url('../../assets/hero-section-saude.png');
     background-size: cover;
     background-position: right;
     color: #fff;
+
+    @media (min-width: 768px) {
+      // background-image: url('../../assets/hero-section-saude.png');
+      background-color: blue;
+    }
+
+    @media (max-width: 767px) {
+      // background-image: url('../../assets/hero-section-saude.png');
+      background-color: red;
+    }
 
     img {
       width: 15%;
@@ -46,24 +55,8 @@
   }
 
   .more-details {
-    background-image: url('../../assets/bg-office.png');
-    background-size: cover;
-    background-position: center;
+    background-color: $nuneslisboa-red;
     display: flex;
     justify-content: center;
-
-    .text-box {
-      padding: rem(16px) 5vw;
-      display: flex;
-      flex-direction: column;
-      background-color: #fff;
-      width: 100vw;
-
-      h3 {
-        color: $nuneslisboa-red;
-        align-self: center;
-        margin-bottom: rem(32px);
-      }
-    }
   }
 }
