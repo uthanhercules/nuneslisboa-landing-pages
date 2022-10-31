@@ -8,6 +8,8 @@
 
 body {
   background-color: $light-background;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 main {
