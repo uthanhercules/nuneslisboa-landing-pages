@@ -19,21 +19,24 @@
     justify-content: center;
     gap: rem(16px);
     background-size: cover;
-    background-position: right;
     color: #fff;
 
     @media (min-width: 768px) {
-      // background-image: url('../../assets/hero-section-saude.png');
-      background-color: blue;
+      background-image: url('../../assets/hero-section-saude.png');
+      background-position: right;
+
+      img {
+        width: 15%;
+      }
     }
 
     @media (max-width: 767px) {
-      // background-image: url('../../assets/hero-section-saude.png');
-      background-color: red;
-    }
+      background-image: url('../../assets/hero-section-saude-m.png');
+      background-position: center;
 
-    img {
-      width: 15%;
+      img {
+        width: 30%;
+      }
     }
 
     h1 {
