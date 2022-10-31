@@ -16,9 +16,7 @@ const index = () => {
         <Text as='h2'>
           Valor indevido pode corresponder a até 92% da dívida.
         </Text>
-        <Button colorScheme='teal' size='lg'>
-          Não quero pagar 92% a mais
-        </Button>
+        <Button size='lg'>Não quero pagar 92% a mais</Button>
       </article>
     </main>
   );
