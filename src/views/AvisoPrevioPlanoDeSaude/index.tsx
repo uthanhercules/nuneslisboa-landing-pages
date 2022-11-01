@@ -18,7 +18,9 @@ const index = () => {
         </Text>
         <Button size='lg'>Não quero pagar 92% a mais</Button>
       </article>
-      <article className='more-details'></article>
+      <article className='more-details'>
+        <Heading as='h3'>Entenda melhor o que está acontecendo</Heading>
+      </article>
     </main>
   );
 };
