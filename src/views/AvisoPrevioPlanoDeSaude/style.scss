@@ -110,5 +110,30 @@
         margin-top: rem(32px);
       }
     }
+
+    @media (max-width: 1024px) {
+      flex-direction: column-reverse;
+
+      .body-text {
+        h3 {
+          font-size: rem(28px);
+          text-align: center;
+        }
+
+        h4 {
+          font-size: rem(14px);
+          text-align: center;
+        }
+
+        p {
+          font-size: rem(14px);
+        }
+
+        button {
+          margin: rem(16px) 0;
+          align-self: center;
+        }
+      }
+    }
   }
 }
