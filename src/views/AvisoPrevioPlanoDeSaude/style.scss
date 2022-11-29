@@ -172,4 +172,43 @@
       }
     }
   }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: rem(16px) 5vw;
+    height: rem(250px);
+    background-color: $nuneslisboa-red;
+
+    img {
+      width: rem(200px);
+      margin-right: rem(64px);
+    }
+
+    .left-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: rem(8px);
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: rem(16px);
+        color: white;
+        width: rem(400px);
+      }
+
+      .social-media {
+        display: flex;
+        gap: rem(10px);
+        color: white;
+      }
+    }
+  }
 }

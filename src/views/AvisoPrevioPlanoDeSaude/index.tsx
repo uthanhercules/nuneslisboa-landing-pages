@@ -3,6 +3,7 @@ import WhatsAppButton from '../../components/WhasAppButton';
 
 import logoVW from '../../assets/logoVW.png';
 import portrait from '../../assets/portrait-rafa.png';
+import logoW from '../../assets/logoW.png';
 import './style.scss';
 
 const index = () => {
@@ -91,6 +92,51 @@ const index = () => {
           </Text>
         </section>
       </article>
+      <footer>
+        <section className='left-info'>
+          <img src={logoW} alt='Logo Nunes Lisboa' />
+        </section>
+        <section className='contact'>
+          <div className='item'>
+            <i className='fa-sharp fa-solid fa-location-dot'></i>
+            <Text as='p'>
+              CEO Salvador Shopping, Torre Nova Iorque - sala 2504 a 2510 -
+              Caminho das Árvores, Salvador - BA, 41820-021
+            </Text>
+          </div>
+          <div className='item'>
+            <i className='fa-sharp fa-solid fa-phone-volume'></i>
+            <Text as='p'>71 9 9905-5588</Text>
+          </div>
+          <div className='item'>
+            <i className='fa-solid fa-envelope'></i>
+            <Text as='p'>comercial@nuneselisboa.adv.br</Text>
+          </div>
+          <div className='social-media'>
+            <a
+              href='https://www.instagram.com/nuneselisboa/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-instagram'></i>
+            </a>
+            <a
+              href='https://www.linkedin.com/company/nunes-e-lisboa?trk=public_profile_experience-item_profile-section-card_subtitle-click&originalSubdomain=br'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-linkedin'></i>
+            </a>
+            <a
+              href='https://m.facebook.com/profile.php?id=100069774515490&_rdr'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-square-facebook'></i>
+            </a>
+          </div>
+        </section>
+      </footer>
     </main>
   );
 };
