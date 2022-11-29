@@ -48,6 +48,49 @@ const index = () => {
         </section>
         <img src={portrait} alt='Retrato de Rafael Lisboa' />
       </article>
+      <article className='step-by-step'>
+        <section className='step'>
+          <Heading as='h5'>1</Heading>
+          <Text as='p'>Entre em contato conosco e envie sua dúvida.</Text>
+        </section>
+        <section className='step'>
+          <Heading as='h5'>2</Heading>
+          <Text as='p'>
+            Analisaremos se você tem direito ou não à redução ou exclusão da
+            dívida.
+          </Text>
+        </section>
+        <section className='step'>
+          <Heading as='h5'>3</Heading>
+          <Text as='p'>
+            Envio de contrato, procuração e documentos. Tudo online, sem que
+            você precise sair de casa
+          </Text>
+        </section>
+        <section className='step'>
+          <Heading as='h5'>4</Heading>
+          <Text as='p'>
+            Início do serviço com a aplicação da estratégia que mais se adequa
+            ao seu caso
+          </Text>
+        </section>
+        <section className='step'>
+          <Heading as='h5'>5</Heading>
+          <Text as='p'>
+            Entendendo o interesse do cliente em saber como está o seu caso,
+            durante a tramitação do processo, enviaremos relatórios periódicos
+            para que você saiba exatamente o que está acontecendo e quais serão
+            os próximos passos
+          </Text>
+        </section>
+        <section className='step'>
+          <Heading as='h5'>6</Heading>
+          <Text as='p'>
+            Fim do processo. Fim do nosso serviço, com extrema gratidão pela
+            confiança.
+          </Text>
+        </section>
+      </article>
     </main>
   );
 };

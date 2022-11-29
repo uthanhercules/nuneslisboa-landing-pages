@@ -87,7 +87,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0 rem(32px) 0 rem(16px);
+      padding: 0 rem(44px) 0 rem(32px);
       height: 80%;
       background-color: #fff;
 
@@ -133,6 +133,42 @@
           margin: rem(16px) 0;
           align-self: center;
         }
+      }
+    }
+  }
+
+  .step-by-step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: rem(32px);
+    padding: rem(16px) 5vw;
+    height: fit-content;
+    min-height: 100vh;
+
+    .step {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: rem(500px);
+      border-bottom: solid black 1px;
+
+      h5 {
+        display: grid;
+        place-items: center;
+        width: rem(32px);
+        height: rem(32px);
+        border: solid rem(2px);
+        border-radius: rem(25px);
+        font-size: rem(18px);
+      }
+
+      p {
+        padding: rem(10px);
+        text-align: center;
       }
     }
   }
