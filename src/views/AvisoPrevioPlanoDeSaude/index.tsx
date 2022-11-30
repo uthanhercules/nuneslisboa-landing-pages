@@ -24,6 +24,42 @@ const index = () => {
       </article>
       <article className='more-details'>
         <Heading as='h3'>Entenda melhor o que está acontecendo</Heading>
+        <Text as='p'>
+          Se o beneficiário pediu para cancelar o plano, eles estão cobrando o
+          chamado aviso prévio que é o período cobrado pelos planos de saúde
+          após o pedido de cancelamento do contrato.
+        </Text>
+        <br />
+        <Text as='p'>
+          Você pede o cancelamento ={'>'} O plano de saúde suspende a cobertura
+          ={'>'} porém a cobrança permanece por mais 60 dias
+        </Text>
+        <br />
+        <Text as='p'>
+          Se o beneficiário teve seu plano de saúde cancelado por inadimplência,
+          a justificativa é diferente. Após 60 dias de inadimplemento, por lei,
+          a operadora de plano de saúde pode suspender a cobertura, porém,
+          suspendem antes disso.
+        </Text>
+        <br />
+        <Text as='p'>
+          Você para de pagar ={'>'} x dias depois o plano suspende a cobertura =
+          {'>'} porém a cobrança permanece até completar os 60 dias
+        </Text>
+        <br />
+        <Text as='p'>
+          Diversas empresas estão tendo suas contas bancárias penhoradas ou
+          fazendo acordos que não precisariam arcar.
+        </Text>
+        <Text as='p' className='last-p'>
+          Não seja cobrado injustamente, é possível analisar seu caso e
+          verificar a redução do valor cobrado ou até mesmo eliminá-lo! O Nunes
+          e Lisboa possui advogado especializado nos casos de cobrança indevida
+          de planos de saúde!
+        </Text>
+        <Button className='cto-button-w' size='lg'>
+          Não quero minha conta bloqueada
+        </Button>
       </article>
       <article className='specialist'>
         <section className='body-text'>

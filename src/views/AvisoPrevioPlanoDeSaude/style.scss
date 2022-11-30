@@ -20,6 +20,18 @@
     }
   }
 
+  .cto-button-w {
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: white;
+    color: $nuneslisboa-red;
+
+    &:hover {
+      transform: scale(1.1);
+      background-color: white;
+    }
+  }
+
   h1,
   h3 {
     font-family: $heading-font;
@@ -62,14 +74,31 @@
   }
 
   .more-details {
+    justify-content: center;
+    align-items: center;
     padding: rem(16px) 5vw;
+    height: 150vh;
     background-color: $nuneslisboa-red;
+    color: white;
 
     h3 {
       margin: rem(32px) 0;
       align-self: center;
       color: #fff;
       font-family: $heading-font;
+    }
+
+    button {
+      margin-top: rem(16px);
+    }
+
+    .last-p {
+      margin-top: rem(32px);
+      text-align: center;
+    }
+
+    p {
+      max-width: rem(768px);
     }
   }
 
@@ -145,7 +174,7 @@
     flex-wrap: nowrap;
     gap: rem(32px);
     padding: rem(16px) 5vw;
-    height: fit-content;
+    height: 130vh;
     min-height: 100vh;
 
     .step {
@@ -209,6 +238,26 @@
         gap: rem(10px);
         color: white;
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: rem(400px);
+    padding: rem(24px);
+
+    img {
+      padding: 0;
+      margin-bottom: rem(32px);
+      align-self: center;
+    }
+
+    .item {
+      max-width: rem(350px);
     }
   }
 }
